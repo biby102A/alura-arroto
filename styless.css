@@ -1,0 +1,77 @@
+body {
+    color: rgb(237, 194, 233);
+    background: rgb(244, 170, 224);
+    margin: 5%;
+    font-family: "Nerko One", cursive;
+}
+
+header {
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    color: rgb(238, 163, 213);
+    font-style: unset;
+}
+
+.chamada {
+    background: #e79eea;
+    border: solid 4px rgb(236, 236, 175);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.videosimagens {
+    border: solid 4px rgb(239, 169, 184);
+    background: rgb(214, 113, 155);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.videos-imagens {
+ 
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+ 
+}
+
+header {
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(225, 124, 200);
+}
+
+img {
+    height: 200px;
+
+}
+
+.videos-imagens img:hover{
+    opacity: 0.5;
+    border: 2px solid rgb(208, 168, 242);
+}
+.videosimagens h2 {
+    color: rgb(174, 187, 228);
+    font-size: 30px;
+    text-align: center;
+}
